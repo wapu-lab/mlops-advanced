@@ -3,7 +3,8 @@ name: Model deployment
 on:
   repository_dispatch:
     types: [machinelearningservices-runcompleted]
-
+    
+    
 jobs:
   deploy:
     runs-on: ubuntu-latest
